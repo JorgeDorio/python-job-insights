@@ -1,5 +1,6 @@
 import src.jobs as jobs
 
+
 def get_unique_job_types(path):
     data = jobs.read(path)
     print(data)
